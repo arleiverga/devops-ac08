@@ -7,7 +7,7 @@ from django.http import HttpRequest
 from django.template import RequestContext
 from app.models import Curso
 from datetime import datetime
-
+# ONDE É QUE EU TO
 def home(request):
     """Renders the home page."""
     assert isinstance(request, HttpRequest)
